@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { combineReducers, createStore } from 'redux';
 import { Provider } from 'react-redux';
 import empreducer from './reducers';
-import AddEmp from './containers/AddEmp';
+import AddEmp from './containers/addEmp';
 import VisibleEmpList from './containers/empList';
 import EmpCounterDisp from './containers/empCounterDisp';
 
